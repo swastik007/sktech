@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/HeaderSection.jsx'
 import HeroSection from './components/HeroSection.jsx'
+import FeaturesSection from './components/FeaturesSection.jsx'
+import StatsSection from './components/StatsSection'
+import CallToActionSection from './components/CallToActionSection'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +14,9 @@ function App() {
     <>
     <Header />
     <HeroSection />
+    <StatsSection />
+    <FeaturesSection />
+    <CallToActionSection />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
