@@ -306,7 +306,6 @@ import React, { useState } from 'react';
 // }
 
 // export default HeroSection;
-
 const HeroSection = () => {
   return (
       // <section>
@@ -338,7 +337,7 @@ const HeroSection = () => {
       <>
   {/* component */}
   <section className="pt-24 bg-white">
-  <div className='absolute inset-0 blur-xl h-[580px]' style={{ background: "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)" }}></div>
+  <div className='absolute inset-0 blur-xl h-[780px] bg-gradient-to-b from-green-700 via-green-900 to-purple-500'></div>
            
     <div className="px-12 mx-auto max-w-7xl">
       <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">

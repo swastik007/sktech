@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/HeaderSection.jsx'
+import HeaderNav from './components/HeaderSection.jsx'
 import HeroSection from './components/HeroSection.jsx'
 import FeaturesSection from './components/FeaturesSection.jsx'
 import StatsSection from './components/StatsSection'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Header />
+    <HeaderNav />
     <HeroSection />
     <StatsSection />
     <FeaturesSection />
