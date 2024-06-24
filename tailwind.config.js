@@ -11,15 +11,12 @@ module.exports = {
     theme: {
 
         extend: {
-            fontFamily: {
-                'firasans': ['Fira Sans', 'sans-serif'],
-                'bubblegum': ['Bubblegum Sans', 'sans-serif']
-              },
+           
             height: {
                 '128': '32rem',
             },
             colors: {
-                'primary': 'rgb(31, 182, 255)',
+                'primary': 'rgb(72, 180, 115)',
                 'secondary': '#7e5bef',
                 
             },

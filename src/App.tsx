@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HeaderNav from './components/HeaderSection.jsx'
 import HeroSection from './components/HeroSection.jsx'
+import AboutSection from './components/AboutSection.jsx'
 import FeaturesSection from './components/FeaturesSection.jsx'
 import StatsSection from './components/StatsSection'
 import CallToActionSection from './components/CallToActionSection'
@@ -16,9 +17,12 @@ function App() {
     <>
     <HeaderNav />
     <HeroSection />
-    <StatsSection />
-    <CompanySlider />    
-    <FeaturesSection />
+    <AboutSection />
+    <CompanySlider /> 
+    <FeaturesSection />  
+    <StatsSection />     
+    
+    
     <CallToActionSection />
     <FooterSection />
     </>

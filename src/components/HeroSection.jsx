@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-
+import { motion } from "framer-motion";
 
 // const HeroSection = () => {
 //     return(
@@ -457,10 +457,18 @@ const HeroSection = () => {
         </div>
         <div className="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
           <div className="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-            <img
+            <motion.img
+              initial={{ y: -10 }}
+              animate={{ y: 10 }}
+              transition={{
+                type: "smooth",
+                repeatType: "mirror",
+                duration: 2,
+                repeat: Infinity,
+              }}
               src="images/hero-bg.png"
-              className="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"
-            />
+              className="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12">
+            </motion.img>
           </div>
         </div>
       </div>
