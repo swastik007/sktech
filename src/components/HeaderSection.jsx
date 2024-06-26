@@ -45,7 +45,7 @@ const Header = () => {
               alt="Logo"
             />  
         <span className="ml-3 text-xl text-gray-800">
-          Sahakarya Tech<span className="text-pink-500">.</span>
+          Sahakarya Tech
         </span>
       </a>
       <nav
@@ -85,22 +85,22 @@ const Header = () => {
           </a>
           <a
             href="#_"
-            className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-black fold-bold w-auto h-fit"
+            className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-green-700 fold-bold"
           >
             Get Started
           </a>
         </div>
       </nav>
-      <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between bg-white text-green-700">
+      <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
         <a
           href="#_"
-          className="relative z-40 px-3 py-2 mr-0 text-sm font-bold md:px-5 bg-white text-green-700 sm:mr-3 md:mt-0 hover:bg-black hover:text-white"
+          className="relative z-40 px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 lg:text-white sm:mr-3 md:mt-0"
         >
           Login
         </a>
         <a
           href="#_"
-          className="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-green-600 rounded shadow-md fold-bold  sm:w-full lg:shadow-none hover:shadow-xl"
+          className="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-green-700 rounded shadow-md fold-bold lg:bg-white lg:text-green-700 sm:w-full lg:shadow-none hover:shadow-xl"
         >
           Get Started
         </a>

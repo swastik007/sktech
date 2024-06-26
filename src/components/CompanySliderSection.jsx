@@ -17,29 +17,24 @@ const CompanySlider = () => {
             <div className='container inline-flex flex-nowrap overflow-hidden'>
                 <ul ref={logosRef} className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                 <li>
-                    <img src="images/facebook.svg" alt="Facebook" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/merobachat.png" alt="merobachat" />
                 </li>
                 <li>
-                    <img src="images/disney.svg" alt="Disney" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/eacademy.png" alt="eacademy" />
                 </li>
                 <li>
-                    <img src="images/airbnb.svg" alt="Airbnb" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/meroclassroom-logo.png" alt="meroclassroom" />
                 </li>
                 <li>
-                    <img src="images/apple.svg" alt="Apple" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/sms-sarara.png" alt="sms-sarara" />
                 </li>
                 <li>
-                    <img src="images/spark.svg" alt="Spark" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/lekhankan.png" alt="lekhankan" />
                 </li>
                 <li>
-                    <img src="images/samsung.svg" alt="Samsung" />
+                    <img className='h-8 w-auto object-contain' src="images/companies/basisthan.png" alt="basisthan" />
                 </li>
-                <li>
-                    <img src="images/quora.svg" alt="Quora" />
-                </li>
-                <li>
-                    <img src="images/sass.svg" alt="Sass" />
-                </li>
+               
                 </ul>
             </div>
       </div>
