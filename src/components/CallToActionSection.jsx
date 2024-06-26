@@ -2,19 +2,19 @@ import React from 'react';
 
 const CallToActionSection = () => { 
     return (
-        <section style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.17) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}>
+        <section className='py-8' style={{ background: "linear-gradient(152.92deg, rgba(25,203,84, 0.12) 4.54%, rgba(0,84,11, 0.017) 34.2%, rgba(0,84,11, 0.021) 77.55%)" }}>
             <div  className="relative max-w-screen-xl mx-auto py-4 px-4 md:px-8">
             {/* <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div> */}
             <div className="relative z-10 gap-5 items-center lg:flex">
                 <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
                     <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                        build your websites with <span className="text-indigo-600">high performance</span>
+                        build your websites with <span className="text-green-600">high performance</span>
                     </h3>
                     <p className="text-gray-500 leading-relaxed mt-3">
                         Nam erat risus, sodales sit amet lobortis ut, finibus eget metus. Cras aliquam ante ut tortor posuere feugiat. Duis sodales nisi id porta lacinia.
                     </p>
                     <a
-                        className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
+                        className="mt-5 px-4 py-2 text-green-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
                         href="javascript:void()">
                         Try it out
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -29,6 +29,32 @@ const CallToActionSection = () => {
                         className="w-full" 
                     />
                 </div>
+            </div>
+            <div className="relative z-10 gap-5 items-center lg:flex">
+                <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
+                    <img 
+                        src="https://i.postimg.cc/kgd4WhyS/container.png" 
+                        alt="" 
+                        className="w-full" 
+                    />
+                </div>
+                <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
+                    <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
+                        build your websites with <span className="text-green-600">high performance</span>
+                    </h3>
+                    <p className="text-gray-500 leading-relaxed mt-3">
+                        Nam erat risus, sodales sit amet lobortis ut, finibus eget metus. Cras aliquam ante ut tortor posuere feugiat. Duis sodales nisi id porta lacinia.
+                    </p>
+                    <a
+                        className="mt-5 px-4 py-2 text-green-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
+                        href="javascript:void()">
+                        Try it out
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                </div>
+                
             </div>
             </div>
            

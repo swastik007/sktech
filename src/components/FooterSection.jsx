@@ -5,13 +5,13 @@ const FooterSection = () => {
             <div className="footer">
                 <div className="container px-4 sm:px-8">
                 <h4 className="mb-8 lg:max-w-3xl lg:mx-auto text-stone-700 font-semibold text-2xl text-center">
-                    Pavo is a mobile application for marketing automation and you can reach
+                    Sahakarya Tech is a mobile application for marketing automation and you can reach
                     the team at{" "}
                     <a
                     className="text-green-600 hover:text-gray-500"
                     href="mailto:email@domain.com"
                     >
-                    email@domain.com
+                    email@sahakaryatech.com
                     </a>
                 </h4>
                 <div className="social-container flex flex-row justify-center space-x-4">
@@ -66,12 +66,7 @@ const FooterSection = () => {
                     Your name
                     </a>
                 </p>
-                <p className="pb-2 p-small statement">
-                    Distributed by :
-                    <a href="https://themewagon.com/" className="no-underline">
-                    Themewagon
-                    </a>
-                </p>
+                
                 </div>
                 {/* end of container */}
             </div>{" "}

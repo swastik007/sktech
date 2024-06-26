@@ -38,23 +38,14 @@ const Header = () => {
         href="/"
         className="relative flex items-center inline-block h-5 h-full font-black leading-none max-w-sm"
       >
-        <svg
-          className="w-auto h-6 text-indigo-600 fill-current"
-          viewBox="0 0 194 116"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g fillRule="evenodd">
-            <path d="M96.869 0L30 116h104l-9.88-17.134H59.64l47.109-81.736zM0 116h19.831L77 17.135 67.088 0z" />
-            <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
-          </g>
-        </svg>
+        
         <img
               src="images/logo.png"
               className="h-6 object-contain"
               alt="Logo"
             />  
         <span className="ml-3 text-xl text-gray-800">
-          Landmark<span className="text-pink-500">.</span>
+          Sahakarya Tech<span className="text-pink-500">.</span>
         </span>
       </a>
       <nav
@@ -63,25 +54,25 @@ const Header = () => {
       >
         <a
           href="#"
-          className="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600"
+          className="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-green-600"
         >
           Home
         </a>
         <a
           href="#features"
-          className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600"
+          className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-green-600"
         >
           Features
         </a>
         <a
           href="#pricing"
-          className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600"
+          className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-green-600"
         >
           Pricing
         </a>
         <a
           href="#testimonials"
-          className="font-bold duration-100 transition-color hover:text-indigo-600"
+          className="font-bold duration-100 transition-color hover:text-green-600"
         >
           Testimonials
         </a>
@@ -94,22 +85,22 @@ const Header = () => {
           </a>
           <a
             href="#_"
-            className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-indigo-700 fold-bold"
+            className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-black fold-bold w-auto h-fit"
           >
             Get Started
           </a>
         </div>
       </nav>
-      <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
+      <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between bg-white text-green-700">
         <a
           href="#_"
-          className="relative z-40 px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 lg:text-white sm:mr-3 md:mt-0"
+          className="relative z-40 px-3 py-2 mr-0 text-sm font-bold md:px-5 bg-white text-green-700 sm:mr-3 md:mt-0 hover:bg-black hover:text-white"
         >
           Login
         </a>
         <a
           href="#_"
-          className="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded shadow-md fold-bold lg:bg-white lg:text-indigo-700 sm:w-full lg:shadow-none hover:shadow-xl"
+          className="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-green-600 rounded shadow-md fold-bold  sm:w-full lg:shadow-none hover:shadow-xl"
         >
           Get Started
         </a>
