@@ -111,3 +111,26 @@
     animation: scroll 20s linear infinite;
   }
   
+
+span.highlight {
+  background-color: #4cca19;
+  background: linear-gradient(-45deg, #4cca19, #17a360, #19d538) 0 0 / 200% 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: animateGradient 5s ease-in-out infinite;
+}
+@-webkit-keyframes animateGradient {
+  to {
+      background-position: 200% 0
+  }
+}
+
+@keyframes animateGradient {
+    to {
+        background-position: 200% 0
+    }
+}

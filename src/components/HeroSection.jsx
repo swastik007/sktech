@@ -312,7 +312,7 @@ const HeroSection = () => {
       <div className="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
         <div className="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
           <h1 className="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">
-            Build the <span className='text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-500 to-green-800'>Next</span> Great Thing
+            Build the <span className='highlight'>Next</span> Great Thing
           </h1>
           <p className="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">
             Are you ready to start your adventure and start building the next

@@ -10,6 +10,7 @@ import StatsSection from './components/StatsSection'
 import CallToActionSection from './components/CallToActionSection'
 import FooterSection from './components/FooterSection.jsx'
 import CompanySlider from './components/CompanySliderSection.jsx'
+import ServiceSection from './components/ServiceSection.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,7 +22,7 @@ function App() {
     <CompanySlider /> 
     <FeaturesSection />  
     <StatsSection />     
-    
+    <ServiceSection />
     
     <CallToActionSection />
     <FooterSection />
