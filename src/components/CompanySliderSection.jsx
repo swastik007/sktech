@@ -14,7 +14,7 @@ const CompanySlider = () => {
     return (
         <div className="w-full  bg-gradient-to-r from-gray-100 to-stone-100 mx-auto flex justify-center py-24 flex-col">
             <h5 className="text-center text-2xl font-semibold leading-2 text-stone-800 mb-5">Our Partners</h5>
-            <div className='container inline-flex flex-nowrap overflow-hidden'>
+            <div className='container inline-flex flex-nowrap overflow-hidden  px-4 lg:px-0'>
                 <ul ref={logosRef} className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                 <li>
                     <img className='h-8 w-auto object-contain' src="images/companies/merobachat.png" alt="merobachat" />

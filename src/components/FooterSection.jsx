@@ -3,7 +3,7 @@ const FooterSection = () => {
         <div className="bg-gradient-to-b from-white via-[#eefff3] to-[#e4ffec] py-12">
             {/* Footer */}
             <div className="footer">
-                <div className="container px-4 sm:px-8">
+                <div className="container  px-4 lg:px-0">
                 <h4 className="mb-8 lg:max-w-3xl lg:mx-auto text-stone-700 font-semibold text-2xl text-center">
                     Sahakarya Tech is a mobile application for marketing automation and you can reach
                     the team at{" "}
@@ -48,7 +48,7 @@ const FooterSection = () => {
             {/* end of footer */}
             {/* Copyright */}
             <div className="copyright">
-                <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
+                <div className=" px-4 lg:px-0 lg:grid lg:grid-cols-3">
                 <ul className="mb-4 list-unstyled p-small">
                     <li className="mb-2">
                     <a href="article.html">Article Details</a>

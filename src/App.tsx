@@ -21,9 +21,9 @@ function App() {
     <AboutSection />
     <CompanySlider /> 
     <FeaturesSection />  
-    <StatsSection />     
+        
     <ServiceSection />
-    
+    <StatsSection /> 
     <CallToActionSection />
     <FooterSection />
     </>

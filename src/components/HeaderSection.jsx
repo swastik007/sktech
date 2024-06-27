@@ -33,10 +33,10 @@ const Header = () => {
      <>
   {/* Header Section */}
   <header className="relative z-50 w-full h-24">
-    <div className="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
+    <div className="container px-4 lg:px-0 flex items-center justify-center h-full max-w-6xl mx-auto sm:justify-between">
       <a
         href="/"
-        className="relative flex items-center inline-block h-5 h-full font-black leading-none max-w-sm"
+        className="relative flex items-center h-5 w-full object-contain font-black leading-none max-w-sm"
       >
         
         <img

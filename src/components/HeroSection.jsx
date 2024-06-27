@@ -315,14 +315,13 @@ const HeroSection = () => {
             Build the <span className='highlight'>Next</span> Great Thing
           </h1>
           <p className="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">
-            Are you ready to start your adventure and start building the next
-            greatest SAAS app on the market?
+          At SahakaryaTech, we bring your digital dreams to life. Our cutting-edge solutions and expert team drive innovation and deliver exceptional results for businesses of all sizes. Whether you're a startup looking to establish your digital footprint or an established enterprise aiming to optimize your operations, SahakaryaTech is your trusted partner in IT excellence.
           </p>
           <a
             href="#_"
             className="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-green-500 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
           >
-            Signup Today!
+            Get in Touch
           </a>
           {/* Integrates with section */}
           <div className="flex-col hidden mt-12 sm:flex lg:mt-24">

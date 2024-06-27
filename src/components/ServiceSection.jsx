@@ -2,12 +2,12 @@ const ServiceSection = () => {
     return(
         <>
   {/* Start block */}
-  <section className="bg-gray-50 dark:bg-gray-800">
+  <section className="bg-gray-900">
     <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
       {/* Row */}
       <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div className="text-gray-200 sm:text-lg ">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-200 ">
               Transform Ideas into Reality with Application Development, and Hosting Solutions.
           </h2>
           <p className="mb-8 font-light lg:text-xl">
@@ -18,12 +18,12 @@ const ServiceSection = () => {
           {/* List */}
           <ul
             role="list"
-            className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
+            className="pt-8 space-y-5 border-t border-gray-200 my-7 "
           >
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-primary "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,14 +34,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Continuous integration and deployment
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,14 +52,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Development workflow
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Knowledge management
               </span>
             </li>
@@ -81,7 +81,7 @@ const ServiceSection = () => {
           </p>
         </div>
         <img
-          className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+          className="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
           src="images/svg-animation-clip-path.svg"
           alt="dashboard feature image"
         />
@@ -93,8 +93,8 @@ const ServiceSection = () => {
           src="images/svg-animation-clip-path.svg"
           alt="feature image 2"
         />
-        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div className="text-gray-500 sm:text-lg ">
+          <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 ">
             We invest in the world’s potential
           </h2>
           <p className="mb-8 font-light lg:text-xl">
@@ -105,12 +105,12 @@ const ServiceSection = () => {
           {/* List */}
           <ul
             role="list"
-            className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
+            className="pt-8 space-y-5 border-t border-gray-200 my-7 "
           >
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,14 +121,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Dynamic reports and dashboards
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -139,14 +139,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Templates for everyone
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,14 +157,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Development workflow
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -175,14 +175,14 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Limitless business automation
               </span>
             </li>
             <li className="flex space-x-3">
               {/* Icon */}
               <svg
-                className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                className="flex-shrink-0 w-5 h-5 text-green-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ const ServiceSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+              <span className="text-base font-medium leading-tight text-stone-200 ">
                 Knowledge management
               </span>
             </li>
@@ -211,21 +211,21 @@ const ServiceSection = () => {
   <section className="bg-white dark:bg-gray-900">
     <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
       <div className="col-span-2 mb-8">
-        <p className="text-lg font-medium text-purple-600 dark:text-purple-500">
+        <p className="text-lg font-medium text-purple-600 dark:text-green-500">
           Trusted Worldwide
         </p>
-        <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
+        <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl ">
           Trusted by over 600 million users and 10,000 teams
         </h2>
-        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+        <p className="font-light text-gray-500 sm:text-xl ">
           Our rigorous security and compliance standards are at the heart of all
           we do. We work tirelessly to protect you and your customers.
         </p>
-        <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+        <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 ">
           <div>
             <a
               href="#"
-              className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
+              className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-green-500 dark:hover:text-purple-700"
             >
               Explore Legality Guide
               <svg
@@ -245,7 +245,7 @@ const ServiceSection = () => {
           <div>
             <a
               href="#"
-              className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
+              className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-green-500 dark:hover:text-purple-700"
             >
               Visit the Trust Center
               <svg
@@ -267,7 +267,7 @@ const ServiceSection = () => {
       <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
         <div>
           <svg
-            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-green-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -278,32 +278,32 @@ const ServiceSection = () => {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="mb-2 text-2xl font-bold dark:text-white">
+          <h3 className="mb-2 text-2xl font-bold ">
             99.99% uptime
           </h3>
-          <p className="font-light text-gray-500 dark:text-gray-400">
+          <p className="font-light text-gray-500 ">
             For Landwind, with zero maintenance downtime
           </p>
         </div>
         <div>
           <svg
-            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-green-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
           </svg>
-          <h3 className="mb-2 text-2xl font-bold dark:text-white">
+          <h3 className="mb-2 text-2xl font-bold ">
             600M+ Users
           </h3>
-          <p className="font-light text-gray-500 dark:text-gray-400">
+          <p className="font-light text-gray-500 ">
             Trusted by over 600 milion users around the world
           </p>
         </div>
         <div>
           <svg
-            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-green-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -314,26 +314,26 @@ const ServiceSection = () => {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="mb-2 text-2xl font-bold dark:text-white">
+          <h3 className="mb-2 text-2xl font-bold ">
             100+ countries
           </h3>
-          <p className="font-light text-gray-500 dark:text-gray-400">
+          <p className="font-light text-gray-500 ">
             Have used Landwind to create functional websites
           </p>
         </div>
         <div>
           <svg
-            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+            className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-green-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
           </svg>
-          <h3 className="mb-2 text-2xl font-bold dark:text-white">
+          <h3 className="mb-2 text-2xl font-bold ">
             5+ Million
           </h3>
-          <p className="font-light text-gray-500 dark:text-gray-400">
+          <p className="font-light text-gray-500 ">
             Transactions per day
           </p>
         </div>

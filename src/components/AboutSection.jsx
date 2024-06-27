@@ -12,7 +12,7 @@ const AboutSection = () => {
   {/* ====== About Section Start */}
   <section
     id="about"
-    className="bg-slate-900 pb-8 pt-20 lg:pb-[70px] lg:pt-[120px] text-white"
+    className="bg-slate-900 pb-8 pt-20 lg:pb-[70px] lg:pt-[120px] text-white px-4 lg:px-0"
   >
     <div className="container mx-auto">
       <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
@@ -20,18 +20,13 @@ const AboutSection = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 max-w-[540px] lg:mb-0">
               <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                Brilliant Toolkit to Build Nextgen Website Faster.
+              Harnessing the power of technology to create a brighter, more connected future
               </h2>
               <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                The main ‘thrust' is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel discussions and roundtables led by subject
-                matter experts.
+              We strive to empower businesses with innovative technology solutions that foster growth and transformation.
                 <br />
                 <br />
-                The main ‘thrust' is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel.
+               We deliver top-notch IT services and products that exceed our clients' expectations. We are committed to providing customized solutions that are efficient, scalable, and secure, ensuring our clients stay ahead in a rapidly evolving digital landscape.
               </p>
               <a
                 href="javascript:void(0)"
